@@ -1,9 +1,44 @@
+body {
+  background: #e9efe3 !important;
+}
+
 h1 {
   font-size: 50px !important;
   text-align: center;
+  color: #395135;
 }
 
 h2 {
   text-align: center;
-  font-size: 35px !important;
+  font-size: 25px !important;
+}
+
+.story {
+  background-color: #e8f5e5;
+  line-height: 1.5;
+  font-weight: 500;
+}
+
+.btn {
+  background-color: #395135 !important;
+  color: white !important;
+}
+
+.btn:hover {
+  border: solid 3px black;
+}
+
+.contact-details {
+  font-size: 18px;
+}
+
+.email-address {
+  text-decoration: none;
+  color: rgb(3, 19, 0);
+  font-weight: 600;
+}
+
+.email-address:hover {
+  color: #178a03;
+  font-weight: 800;
 }
